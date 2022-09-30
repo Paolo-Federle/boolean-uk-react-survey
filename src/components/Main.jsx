@@ -69,6 +69,10 @@ function Main() {
     setEmail("")
     setRadio("")
     setCheckbox([])
+    setCheckboxOneCheck(false)
+    setCheckboxTwoCheck(false)
+    setCheckboxThreeCheck(false)
+    setCheckboxFourCheck(false)
   }
 
   const submitForm = (event) => {
